@@ -1,0 +1,55 @@
+{
+    "products": [
+      { "id": 1, 
+        "name": "Razer Headphones", 
+        "category_id": 2,
+        "description": "High quality audio with good microphone",
+        "price": 100,
+        "is-available": true, 
+        "rating": 4,
+        "reviews": 120, 
+        "vendor_name": "Razer Official",
+        "warranty": 2
+      },
+      { "id": 2, 
+        "name": "ROG Gaming Laptop", 
+        "category_id": 3,
+        "description": "Good for Triple A games",
+        "price": 200,
+        "is-available": true, 
+        "rating": 4,
+        "reviews": 120, 
+        "vendor_name": "Asus Inc.",
+        "warranty": 3
+      },
+      { "id": 3, 
+        "name": "Steelseries Keyboard", 
+        "category_id": 4,
+        "description": "Good for Triple A games",
+        "price": 125,
+        "is-available": true, 
+        "rating": 4,
+        "reviews": 120, 
+        "vendor_name": "Asus Inc.",
+        "warranty": 3
+      }
+    ],
+    "comments": [
+      { "id": 1, 
+        "body": "good product", 
+        "postId": 2 
+    },
+    {   "id": 2, 
+        "body": "bad product", 
+        "postId": 3
+    },
+    {   "id": 3, 
+        "body": "okay product", 
+        "postId": 3
+    }
+    ],
+    "profile": { 
+        "id": 1,
+        "name": "Ernest"
+    }
+  }
