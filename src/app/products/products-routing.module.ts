@@ -13,12 +13,12 @@ import { ProductsComponent } from './products.component';
 const routes: Routes = [
   { path: '', component: ProductsComponent },
   { path: 'add-product', component: AddProductComponent },
-  { path: 'delete-product', component: DeleteProductComponent },
+  { path: 'delete-product/:id', component: DeleteProductComponent },
   { path: 'list-all-products', component: ListAllProductsComponent },
-  { path: 'update-product', component: UpdateProductComponent },
-  { path: 'view-all-products-by-category', component: ViewAllProductsByCategoryComponent },
-  { path: 'view-all-products-by-date', component: ViewAllProductsByDateComponent },
-  { path: 'view-product', component: ViewProductComponent },
+  { path: 'update-product/:id', component: UpdateProductComponent },
+  { path: 'search-category', component: ViewAllProductsByCategoryComponent },
+  { path: 'search-date', component: ViewAllProductsByDateComponent },
+  { path: 'view-product/:id', component: ViewProductComponent },
 ];
 
 @NgModule({
