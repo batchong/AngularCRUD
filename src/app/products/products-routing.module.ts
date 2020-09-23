@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: '', component: ProductsComponent },
   { path: 'add-product', component: AddProductComponent },
   { path: 'delete-product', component: DeleteProductComponent },
-  { path: 'list-all-product', component: ListAllProductsComponent },
+  { path: 'list-all-products', component: ListAllProductsComponent },
   { path: 'update-product', component: UpdateProductComponent },
   { path: 'view-all-products-by-category', component: ViewAllProductsByCategoryComponent },
   { path: 'view-all-products-by-date', component: ViewAllProductsByDateComponent },

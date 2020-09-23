@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { SiteFrameworkModule } from "./site-framework/site-framework.module";
 
 
 @NgModule({
@@ -14,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OrdersModule
+    OrdersModule,
+    SiteFrameworkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
