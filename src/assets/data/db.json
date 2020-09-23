@@ -1,11 +1,36 @@
 {
     "products": [
       { "id": 1, 
-        "name": "Razer Headphones", 
-        "category_id": 2,
+        "name": "Razer Gaming Headphones", 
+        "category_id": 1,
+        "description": "High quality audio with good microphone",
+        "price": 2500,
+        "is-available": true, 
+        "productImg": "http://localhost:4200/assests/1.jpg",
+        "rating": 4,
+        "reviews": 120, 
+        "vendor_name": "Razer Official",
+        "warranty": 2
+      },
+      { "id": 2, 
+        "name": "Logitech Headphones", 
+        "category_id": 1,
+        "description": "High quality audio with good microphone",
+        "price": 2000,
+        "is-available": true, 
+        "productImg": "http://localhost:4200/assests/2.jpg",
+        "rating": 4,
+        "reviews": 120, 
+        "vendor_name": "Razer Official",
+        "warranty": 2
+      },
+      { "id": 3, 
+        "name": "Playstation Gold Headphones", 
+        "category_id": 1,
         "description": "High quality audio with good microphone",
         "price": 100,
         "is-available": true, 
+        "productImg": "http://localhost:4200/assests/3.png",
         "rating": 4,
         "reviews": 120, 
         "vendor_name": "Razer Official",
@@ -48,6 +73,12 @@
         "postId": 3
     }
     ],
+    "categories" : [
+      { "id": 1, "categoryName": "Headphones"},
+      { "id": 2, "categoryName": "Keyboards"},
+      { "id": 3, "categoryName": "Laptops"},
+      { "id": 4, "categoryName": "Video Cards"}
+  ],
     "profile": { 
         "id": 1,
         "name": "Ernest"

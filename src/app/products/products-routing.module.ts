@@ -11,10 +11,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { ProductsComponent } from './products.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsComponent },
+  { path: '', component: ListAllProductsComponent },
   { path: 'add-product', component: AddProductComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
-  { path: 'list-all-products', component: ListAllProductsComponent },
+  
   { path: 'update-product/:id', component: UpdateProductComponent },
   { path: 'search-category', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
