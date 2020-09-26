@@ -10,6 +10,10 @@ export class ProductsService {
 
   constructor(private httpClient: HttpClient) { }
   
+  getAllProduts(): Observable<Product> {
+    const productUrl = "http://localhost:3000/products"
+    return this. httpClient.get<Product>(productUrl); 
+  } 
 
   getCategories(): Observable<Category> {
     const categoriesUrl = "http://localhost:3000/categories";

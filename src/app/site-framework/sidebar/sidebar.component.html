@@ -1,9 +1,9 @@
 
-    <div class="list-group">
-      <a href="#" class="list-group-item" *ngFor="let cat of categoryList">
+    <div class="list-group" *ngFor="let cat of categoryList">
+      <a href="category/{{cat.id}}" class="list-group-item" >
         {{ cat.categoryName }}
       </a>
         
 </div>
 
-      
+        
