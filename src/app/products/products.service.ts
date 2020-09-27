@@ -25,7 +25,7 @@ export class ProductsService {
     return this.httpClient.post<Product>(productUrl, productBody);
   }
   viewProduct(productId): Observable<Product> {
-    const productUrl = 'http://localhost:3000/product/'+productId;
+    const productUrl = 'http://localhost:3000/products/'+productId;
     return this.httpClient.get<Product>(productUrl);
   }
   updateProduct(productId, productBody): Observable<Product> { 
@@ -37,7 +37,7 @@ export class ProductsService {
     return this.httpClient.delete<Product>(productId)
   }
   searchCategoryProducts(categoryId): Observable<Product> {
-    const productUrl = "http://localhost:3000/products/category=" +categoryId; 
+    const productUrl = "http://localhost:3000/products?categoryId="+categoryId; 
     return this.httpClient.get<Product>(productUrl);
   }
   searchCategoryByDate(dateParam) {

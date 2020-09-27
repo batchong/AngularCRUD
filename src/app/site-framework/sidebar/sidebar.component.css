@@ -1,0 +1,8 @@
+.list-group-item  {
+    background-color: rgba(234, 70, 48, 0.9);
+    margin-top: 20px;
+}
+a.list-group-item {
+    color: white;
+}
+
