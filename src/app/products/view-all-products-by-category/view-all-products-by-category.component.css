@@ -2,3 +2,6 @@
     color: #165B33;
     padding-top: 20px;
 }
+.carousel-inner {
+    display: none;
+}
