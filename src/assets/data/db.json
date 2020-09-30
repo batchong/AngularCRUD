@@ -1,100 +1,131 @@
 {
-    "products": [
-      { "id": 1, 
-        "name": "Razer Gaming Headphones", 
-        "categoryId": 1,
-        "description": "High quality audio with good microphone",
-        "price": 2500,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/headphones-1.jpg",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Razer Official",
-        "warranty": 2
-      },
-      { "id": 2, 
-        "name": "Logitech Headphones", 
-        "categoryId": 1,
-        "description": "Good fit, excellent audio and gaming microphone",
-        "price": 2000,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/headphones-2.jpg",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Razer Official",
-        "warranty": 2
-      },
-      { "id": 3, 
-        "name": "Playstation Gold Headphones", 
-        "categoryId": 1,
-        "description": "For the true gamers out there, grab yours now!",
-        "price": 2000,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/headphones-3.png",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Razer Official",
-        "warranty": 2
-      },
-      { "id": 4, 
-        "name": "ROG Gaming Laptop", 
-        "categoryId": 3,
-        "description": "High-end laptop, good for Triple A games",
-        "price": 200,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/laptop-1.jpg",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Asus Inc.",
-        "warranty": 3
-      },
-      { "id": 5, 
-        "name": "Steelseries Keyboard", 
-        "categoryId": 2,
-        "description": "High durability, good for gaming",
-        "price": 2000,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/keyboard-1.jpg",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Asus Inc.",
-        "warranty": 3
-      },
-      { "id": 6, 
-        "name": "GTX 1050", 
-        "categoryId": 4,
-        "description": "Perfect budget graphics card",
-        "price": 3000,
-        "is-available": true, 
-        "productImg": "http://localhost:4200/assets/gpu-1.jpg",
-        "rating": 4,
-        "reviews": 120, 
-        "vendor_name": "Asus Inc.",
-        "warranty": 3
-      }
-    ],
-    "comments": [
-      { "id": 1, 
-        "body": "good product", 
-        "postId": 2 
+  "products": [
+    {
+      "id": 1,
+      "name": "Razer Gaming Headphones",
+      "categoryId": 1,
+      "description": "High quality audio with good microphone",
+      "price": 2500,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/headphones-1.jpg",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Razer Official",
+      "warranty": 2
     },
-    {   "id": 2, 
-        "body": "bad product", 
-        "postId": 3
+    {
+      "id": 2,
+      "name": "Logitech Headphones",
+      "categoryId": 1,
+      "description": "Good fit, excellent audio and excellent quality microphone",
+      "price": 2000,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/headphones-2.jpg",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Razer Official",
+      "warranty": 2
     },
-    {   "id": 3, 
-        "body": "okay product", 
-        "postId": 3
+    {
+      "id": 3,
+      "name": "Playstation Gold Headphones",
+      "categoryId": 1,
+      "description": "For the true gamers out there, grab yours now!",
+      "price": 2000,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/headphones-3.png",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Razer Official",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "name": "ROG Gaming Laptop",
+      "categoryId": 3,
+      "description": "High-end laptop, good for Triple A games",
+      "price": 200,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/laptop-1.jpg",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Asus Inc.",
+      "warranty": 3
+    },
+    {
+      "id": 5,
+      "name": "Steelseries Keyboard",
+      "categoryId": 2,
+      "description": "High durability, good for gaming",
+      "price": 2000,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/keyboard-1.jpg",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Asus Inc.",
+      "warranty": 3
+    },
+    {
+      "id": 6,
+      "name": "GTX 1050",
+      "categoryId": 4,
+      "description": "Perfect budget graphics card",
+      "price": 3000,
+      "is-available": true,
+      "productImg": "http://localhost:4200/assets/gpu-1.jpg",
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Asus Inc.",
+      "warranty": 3
+    },
+    {
+      "id": 9,
+      "name": "Dragonwar Keyboard",
+      "categoryId": "2",
+      "description": "New Durable Keyboard",
+      "raing": "3",
+      "price": "1000",
+      "reviews": "Ok",
+      "productImg": ""
     }
-    ],
-    "categories" : [
-      { "id": 1, "categoryName": "Headphones"},
-      { "id": 2, "categoryName": "Keyboards"},
-      { "id": 3, "categoryName": "Laptops"},
-      { "id": 4, "categoryName": "Video Cards"}
   ],
-    "profile": { 
-        "id": 1,
-        "name": "Ernest"
+  "comments": [
+    {
+      "id": 1,
+      "body": "good product",
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "body": "bad product",
+      "postId": 3
+    },
+    {
+      "id": 3,
+      "body": "okay product",
+      "postId": 3
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Headphones"
+    },
+    {
+      "id": 2,
+      "categoryName": "Keyboards"
+    },
+    {
+      "id": 3,
+      "categoryName": "Laptops"
+    },
+    {
+      "id": 4,
+      "categoryName": "Video Cards"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "name": "Ernest"
   }
+}
