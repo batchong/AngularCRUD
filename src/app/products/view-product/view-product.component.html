@@ -2,6 +2,7 @@
     <img class="card-img-top img-fluid" src="{{ productDetails.productImg }}" alt="" width="400" height="600">
     <div class="card-body">
       <h3 class="card-title">{{ productDetails.name }}</h3>
+      <a href="products/update-product/{{productDetails.id}}">Update Product</a>
       <h4>₱{{ productDetails.price }}</h4>
       <p class="card-text">{{ productDetails.description }}</p>
       <span class="text-warning"></span>

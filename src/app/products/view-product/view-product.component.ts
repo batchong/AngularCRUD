@@ -9,6 +9,7 @@ import { Product } from '../product';
   styleUrls: ['./view-product.component.css']
 })
 export class ViewProductComponent implements OnInit {
+  
   productDetails: Product;
   productId = 0;
   

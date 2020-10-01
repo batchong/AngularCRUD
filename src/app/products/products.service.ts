@@ -29,11 +29,11 @@ export class ProductsService {
     return this.httpClient.get<Product>(productUrl);
   }
   updateProduct(productId, productBody): Observable<Product> { 
-    const productUrl = "http://localhost:3000/products"+productId;
+    const productUrl = "http://localhost:3000/products/"+productId;
     return this.httpClient.put<Product>(productUrl, productBody);  
   }
   deleteProduct(productId): Observable<Product> {
-    const productUrl = "http://localhost:3000/products"+productId;
+    const productUrl = "http://localhost:3000/products/"+productId;
     return this.httpClient.delete<Product>(productUrl)
   }
   searchCategoryProducts(categoryId): Observable<Product> {

@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Razer Gaming Headphones",
+      "name": "Razer  Headphones",
       "categoryId": 1,
-      "description": "High quality audio with good microphone",
-      "price": 2500,
+      "description": "Best microphone for gaming, nice fit and very comfortable",
+      "price": 2000,
       "is-available": true,
       "productImg": "http://localhost:4200/assets/headphones-1.jpg",
       "rating": 4,
@@ -79,14 +79,16 @@
       "warranty": 3
     },
     {
-      "id": 9,
-      "name": "Dragonwar Keyboard",
+      "name": "Keeeeeeeeeeeeeeeeeyboard",
       "categoryId": "2",
       "description": "New Durable Keyboard",
-      "raing": "3",
-      "price": "1000",
+      "rating": "1",
+      "price": "2000",
       "reviews": "Ok",
-      "productImg": ""
+      "productImg": "",
+      "isAvailable": "1",
+      "id": 7
+      
     }
   ],
   "comments": [

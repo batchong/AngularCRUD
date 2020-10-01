@@ -3,10 +3,11 @@ export interface Product {
     categoryId: number;
     name: string; 
     description: string;
-    rating: string;
+    rating: number;
     price: number;
     productImg: string;
     isAvailable: boolean;
     color: string;
     reviews: number; 
+    id: number;
 }
