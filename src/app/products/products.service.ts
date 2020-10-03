@@ -21,14 +21,14 @@ export class ProductsService {
   }
 
   addProduct(productBody): Observable<Product>{
-    const productUrl = "http://localhost:3000/products"
+    const productUrl = "http://localhost:3000/products";
     return this.httpClient.post<Product>(productUrl, productBody);
   }
-  viewProduct(productId): Observable<Product> {
+  viewProduct(productId): Observable<any> {
     const productUrl = 'http://localhost:3000/products/'+productId;
-    return this.httpClient.get<Product>(productUrl);
+    return this.httpClient.get<any>(productUrl);
   }
-  updateProduct(productId, productBody): Observable<Product> { 
+  updateProduct(productId, productBody): Observable<Product>   { 
     const productUrl = "http://localhost:3000/products/"+productId;
     return this.httpClient.put<Product>(productUrl, productBody);  
   }
